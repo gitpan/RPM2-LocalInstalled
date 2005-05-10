@@ -1,6 +1,6 @@
 package RPM2::LocalInstalled;
 
-use 5.008006;
+use 5.008;
 use strict;
 use warnings;
 
@@ -21,7 +21,7 @@ our @EXPORT = qw(
 	
 );
 
-(our $VERSION) = '$Revision: 1.2 $' =~ /([\d.]+)/;
+(our $VERSION) = '$Revision: 1.3 $' =~ /([\d.]+)/;
 
 sub new {
 	my $class = shift;

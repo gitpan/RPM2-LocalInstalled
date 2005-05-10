@@ -2,10 +2,9 @@ RPM2-Local-Installed
 ================================
 
 RPM2::LocalInstalled is a wrapper around RPM2. RPM2::LocalInstalled
-will return a list of locally installed RPMs. But only the newest
-RPMs will be listed. Eg. kernel-2.6.11 and kernel-2.6.10 are installed,
-then only kernel-2.6.11 will be listed. This is usefully for comparing
-with a list of updates, eg. from Config::YUM.
+will return lists of locally installed RPMs.
+This is usefully for comparing with a list of updates, eg. from
+Config::YUM.
 
 RPM2 cares about epochs, as rpm, since version 4 (I guess), does.
 
