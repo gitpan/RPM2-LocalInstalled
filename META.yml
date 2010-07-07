@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:                RPM2-LocalInstalled
-version:             1.3.1.1
+version:             1.4
 abstract:            Perl extension that returns a list of locally installed RPMs
 license:             ~
 author:              

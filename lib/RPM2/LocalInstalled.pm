@@ -21,7 +21,7 @@ our @EXPORT = qw(
 	
 );
 
-(our $VERSION) = '$Revision: 1.3.1.1 $' =~ /([\d.]+)/;
+(our $VERSION) = '$Revision: 1.4 $' =~ /([\d.]+)/;
 
 sub new {
 	my $class = shift;
